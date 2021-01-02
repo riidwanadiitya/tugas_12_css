@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: radial-gradient(circle at right bottom, white, aqua);
+}
+
+ul {
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.slider-img {
+    width: 98%;
+    height: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+}
+
+.image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.p-text {
+    padding: 10px;
+    column-count: 4;
+    column-fill: balance;
+    column-rule: 2px solid black;
+    font-size: 14px;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+}
